@@ -18,3 +18,4 @@ This repository contains materials related to the study "An Investigation of AR-
 IMUセンサーとPCをBluetooth接続した状態で，bwt901cl_2sensor.pyを実行すると，センサーからデータを受信できる．UDP_IPには，unityプログラムを実行する端末のIPv4アドレスを調べて代入する．port番号はbwt901cl_2sensor.pyとUDPReceiver.csで一致させる．bwt901cl_2sensor.pyを実行している間，unityプログラムを実行させると，unityプログラムにデータが受信され，表示に反映させる．
 
 ## データ処理の流れ
+![System_Architecture_Diagram](./img/System_Architecture_Diagram.png)
